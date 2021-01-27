@@ -21,8 +21,26 @@ a:hover {
     text-decoration: none;
     color: purple;
 }
-/* selected link */
 a:active {
     text-decoration: none;
     color: purple;
+}
+.container img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.container .hpbutton {
+    position: relative;
+    float: center;
+    top: 50%;
+    left: 50%;
+    background-color: purple;
+    color: white;
+    font-family: 'Staatliches', cursive;
+    font-size: 1.4em;
+    padding: 5px 5px; 
 }
