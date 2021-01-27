@@ -8,6 +8,8 @@
     font-family: 'Staatliches', cursive;
     font-size: 2em;
     text-align: center;
+    word-spacing: 2em;
+    letter-spacing: .25em;
 }
 a:link {
     text-decoration: none;
@@ -29,11 +31,11 @@ a:active {
     display: block;
     margin-right: auto;
     margin-left: auto;
-    width: 80%;
+    width: 100%;
     padding-top: 2%;
     padding-bottom: 2%;
 }
-.container .hpbutton {
+.hpbutton {
     position: relative;
     float: center;
     top: 50%;
@@ -42,5 +44,23 @@ a:active {
     color: white;
     font-family: 'Staatliches', cursive;
     font-size: 1.4em;
-    padding: 5px 5px; 
+    padding: 15px; 
+    letter-spacing: .25em;
+}
+.container2 {
+    border: 3px solid purple;
+    padding: 15px;
+    background-color: palevioletred;
+    opacity: 0.8;
+}
+#h3 {
+    font-family: 'Luckiest Guy', cursive;
+    color: purple;
+    font-size: 2em;
+    text-align: center;
+}
+.container2 p {
+    font-family: cursive;
+    font-size: 2em;
+    color: white;
 }
