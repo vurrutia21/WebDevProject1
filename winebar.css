@@ -2,6 +2,7 @@
     font-family: 'Luckiest Guy', cursive;
     color: palevioletred;
     font-size: 3em;
+    text-align: center;
 }
 .topnav {
     background-color: palevioletred;
@@ -34,18 +35,7 @@ a:active {
     width: 100%;
     padding-top: 2%;
     padding-bottom: 2%;
-}
-.hpbutton {
-    position: relative;
-    float: center;
-    top: 50%;
-    left: 50%;
-    background-color: purple;
-    color: white;
-    font-family: 'Staatliches', cursive;
-    font-size: 1.4em;
-    padding: 15px; 
-    letter-spacing: .25em;
+    opacity: 0.8;
 }
 .container2 {
     border: 3px solid purple;
@@ -54,13 +44,81 @@ a:active {
     opacity: 0.8;
 }
 #h3 {
-    font-family: 'Luckiest Guy', cursive;
+    font-family: 'Staatliches', cursive;
     color: purple;
     font-size: 2em;
     text-align: center;
+    letter-spacing: .25em;
 }
 .container2 p {
     font-family: cursive;
     font-size: 2em;
     color: white;
 }
+.footer {
+    color: purple;
+    font-family: cursive;
+    font-size: .5em;
+    text-align: left;
+}
+#header {
+    text-align: center;
+    font-family: 'Luckiest Guy', cursive;
+    color: rgb(63, 129, 252);
+    font-size: 2.5em;
+}
+.form {
+    border: 1px solid purple;
+    width: 50%;
+    align-content: center;
+    padding: 10px;
+}
+input {
+    width: 100;
+}
+.label {
+    color: purple;
+    font-family: 'Staatliches', cursive;
+    font-size: 1em;
+}
+.container3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+}
+#one, #two {
+    border: 3px solid purple;
+    font-family: cursive;
+    font-size: 1em;
+    padding: 20px;
+    width: 500px;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .container img {
+         display: 100%;
+    }
+    .topnav {
+        overflow: hidden;
+        float: none;
+        width: auto;
+    }
+       #one, #two {
+            width: 100%;
+            float: none;
+            padding: 0px;
+        }
+    }
+    @media screen and (min-width: 270px) {
+    #h1 {
+        display: 100%;
+    }
+    .topnav {
+        display: 100%;
+    }
+    }
