@@ -56,12 +56,6 @@ a:active {
     font-size: 2em;
     color: white;
 }
-.footer {
-    color: purple;
-    font-family: cursive;
-    font-size: .5em;
-    text-align: left;
-}
 #header {
     text-align: center;
     font-family: 'Luckiest Guy', cursive;
@@ -69,19 +63,33 @@ a:active {
     font-size: 2.5em;
     margin-bottom: -6px;
 }
-.form {
-    border: 1px solid purple;
-    width: 50%;
-    align-content: center;
-    padding: 10px;
-}
 input {
-    width: 100;
+    width: 50%;
+    height: 20px;
+    margin: 13px;
+    resize: none;
 }
 .label {
     color: purple;
     font-family: 'Staatliches', cursive;
-    font-size: 1em;
+    font-size: 1.5em;
+}
+.submit {
+    background-color: palevioletred;
+    border: none;
+    color: white;
+    font-family: 'Staatliches', 'cursive';
+    font-size: 1.2em;
+    letter-spacing: .7em;
+    margin-top: 15px;
+    padding-left: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 .container3 {
     display: flex;
@@ -138,6 +146,41 @@ input {
     padding-bottom: 2%;
     opacity: 0.8;
 }
+.footer {
+    color: purple;
+    font-family: cursive;
+    font-size: .5em;
+    text-align: left;
+}
+.container5 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    margin-top: 70px;
+}
+#eight, #nine {
+    border: 2px solid palevioletred;
+    font-family: 'Staatliches', cursive;
+    font-size: 1em;
+    padding: 20px;
+    width: 500px;
+    text-align: center;
+    border-radius: 4px;
+}
+#nine p {
+    font-family: 'Staatliches', cursive;
+    color: purple;
+    font-size: 1.7em;
+    letter-spacing: .2em;
+}
+#nine h3 {
+    font-size: 3em;
+    color: rgb(63, 129, 252);
+    letter-spacing: .25em;
+    margin-bottom: -3px;
+}
 @media screen and (max-width: 800px) {
     .container img {
          display: 100%;
@@ -150,10 +193,13 @@ input {
         float: none;
         width: auto;
     }
-       #one, #two {
+       #one, #two, #three, #four, #five, #six, #seven, #eight, #nine {
             width: 100%;
             float: none;
             padding: 0px;
+        }
+        .footer {
+            position: fixed;
         }
     }
     @media screen and (min-width: 270px) {
