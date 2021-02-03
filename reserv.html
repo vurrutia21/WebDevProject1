@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>Reservations</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
         <link rel="stylesheet" href="winebar.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Staatliches&display=swap" rel="stylesheet">
@@ -15,16 +16,16 @@
         <a href="reserv.html">Reservations</a>
         </div>
         <h1 id="header">Book A Table!</h1>
-       <div id="reservations">
-        <form class ="form" action="#" method="post">
+        <div class="reservations">
+        <form class="form" action="https://formspree.io/f/xgepqkrb" method="post">
             <label class="label" for="firstName">First Name:</label>
-            <input type="text" id="firstName" name="firstName" />
+            <input type="text" id="firstName" name="firstName" required/>
             </br>
             <label class="label" for="lastName">Last Name:</label>
             <input type="text" id="lastName" name="lastName" />
             </br>
             <label class="label" for="email">Email:</label>
-            <input type="email" id="email" name="email" />
+            <input type="email" id="email" name="email" required/>
            </br>
             <label class="label" for="phone">Phone Number:</label>
             <input type="tel" id="phone" name="phone" required />
@@ -35,26 +36,27 @@
             <label class="label" for="time">Time:</label>
             <input type="time" id="time" name="time" min="12:00PM" max="10:00PM" required />
             </br>
-            <p>
-                <label class="label" for="partysize">Party Size:</label>
+            <label class="label" for="partysize">Party Size: </label>
                 <select>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="6">6</option>
-                    <option value="7">7</option>
-                    <option value="8">8</option>
-                    <option value="9">9</option>
-                    <option value="10">10</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
                 </select>
-            </p></br>
-            <label class="label" for="message">Message:</label>
-            <input class="message" type="text" id="message" name="message" class="message"/>
             </br>
-            <button class="submit" type="submit">Submit</button></br>
+            <button class="submit" type="submit">Submit</button>
         </form>
         </div>
     </body>
+    <footer class="footer">
+        <p>
+           Established 2021 by Vanessa Urrutia
+       </p>
+   </footer>    
 </html>
