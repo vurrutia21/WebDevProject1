@@ -2,12 +2,15 @@
     font-family: 'Luckiest Guy', cursive;
     color: palevioletred;
     font-size: 3em;
+    text-align: center;
 }
 .topnav {
     background-color: palevioletred;
     font-family: 'Staatliches', cursive;
     font-size: 2em;
     text-align: center;
+    word-spacing: 2em;
+    letter-spacing: .25em;
 }
 a:link {
     text-decoration: none;
@@ -21,8 +24,189 @@ a:hover {
     text-decoration: none;
     color: purple;
 }
-/* selected link */
 a:active {
     text-decoration: none;
     color: purple;
 }
+.container img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    opacity: 0.8;
+}
+.container2 {
+    border: 3px solid purple;
+    padding: 15px;
+    background-color: palevioletred;
+    opacity: 0.8;
+}
+#h3 {
+    font-family: 'Staatliches', cursive;
+    color: purple;
+    font-size: 2em;
+    text-align: center;
+    letter-spacing: .25em;
+    margin-bottom: -6px;
+}
+.container2 p {
+    font-family: cursive;
+    font-size: 2em;
+    color: white;
+}
+#header {
+    text-align: center;
+    font-family: 'Luckiest Guy', cursive;
+    color: rgb(63, 129, 252);
+    font-size: 2.5em;
+    margin-bottom: -6px;
+}
+input {
+    width: 50%;
+    height: 20px;
+    margin: 13px;
+    resize: none;
+}
+.label {
+    color: purple;
+    font-family: 'Staatliches', cursive;
+    font-size: 1.5em;
+}
+.submit {
+    background-color: palevioletred;
+    border: none;
+    color: white;
+    font-family: 'Staatliches', 'cursive';
+    font-size: 1.2em;
+    letter-spacing: .7em;
+    margin-top: 15px;
+    padding-left: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.container3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    margin-top: 70px;
+}
+#one, #two {
+    border: 3px solid purple;
+    font-family: cursive;
+    font-size: 1em;
+    padding: 20px;
+    width: 500px;
+    text-align: center;
+}
+.container4 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+}
+#p1 {
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+    font-size: 1em;
+    padding-top: 0%;
+    margin-top: 0%;
+}
+.container4 p {
+    font-family: cursive;
+    font-size: 1.2em;
+    padding-top: 0%;
+    margin-top: 0%;
+}
+#h2 {
+    font-family: 'Staatliches', cursive;
+    font-size: 2em;
+    color: purple;
+    letter-spacing: .25em;
+    margin-bottom: -6px;
+}
+#three, #four, #five, #six, #seven {
+    text-align: center;
+}
+.cheeseimg {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    opacity: 0.8;
+}
+.footer {
+    color: purple;
+    font-family: cursive;
+    font-size: .5em;
+    text-align: left;
+}
+.container5 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    margin-top: 70px;
+}
+#eight, #nine {
+    border: 2px solid palevioletred;
+    font-family: 'Staatliches', cursive;
+    font-size: 1em;
+    padding: 20px;
+    width: 500px;
+    text-align: center;
+    border-radius: 4px;
+}
+#nine p {
+    font-family: 'Staatliches', cursive;
+    color: purple;
+    font-size: 1.7em;
+    letter-spacing: .2em;
+}
+#nine h3 {
+    font-size: 3em;
+    color: rgb(63, 129, 252);
+    letter-spacing: .25em;
+    margin-bottom: -3px;
+}
+@media screen and (max-width: 800px) {
+    .container img {
+         display: 100%;
+    }
+    .cheeseimg {
+        display: 100%;
+    }
+    .topnav {
+        overflow: hidden;
+        float: none;
+        width: auto;
+    }
+       #one, #two, #three, #four, #five, #six, #seven, #eight, #nine {
+            width: 100%;
+            float: none;
+            padding: 0px;
+        }
+        .footer {
+            position: fixed;
+        }
+    }
+    @media screen and (min-width: 270px) {
+    #h1 {
+        display: 100%;
+    }
+    .topnav {
+        display: 100%;
+    }
+    }
