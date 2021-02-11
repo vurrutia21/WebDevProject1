@@ -69,10 +69,25 @@ input {
     margin: 13px;
     resize: none;
 }
+.PartySize {
+    display: inline-block;
+    text-align: right;
+    width: 150px;
+    padding: 6px;
+    vertical-align: middle;
+}
+.FirstName, .LastName, .Email, .Phone, .Date, .Time {
+    display: inline-block;
+    text-align: right;
+    width: 150px;
+}
 .label {
     color: purple;
     font-family: 'Staatliches', cursive;
     font-size: 1.5em;
+    display: inline-block;
+    text-align: right;
+    width: 150px;
 }
 .submit {
     background-color: palevioletred;
@@ -81,6 +96,7 @@ input {
     font-family: 'Staatliches', 'cursive';
     font-size: 1.2em;
     letter-spacing: .7em;
+    cursor: pointer;
     margin-top: 15px;
     padding-left: 20px;
     padding-top: 7px;
@@ -161,7 +177,15 @@ input {
     align-items: stretch;
     margin-top: 70px;
 }
-#eight, #nine {
+#eight {
+    border: 2px solid palevioletred;
+    font-family: 'Staatliches', cursive;
+    font-size: 1em;
+    padding: 20px;
+    width: 500px;
+    border-radius: 4px;
+} 
+#nine {
     border: 2px solid palevioletred;
     font-family: 'Staatliches', cursive;
     font-size: 1em;
@@ -177,9 +201,9 @@ input {
     letter-spacing: .2em;
 }
 #nine h3 {
+    font-family: 'Luckiest Guy', cursive;
     font-size: 3em;
     color: rgb(63, 129, 252);
-    letter-spacing: .25em;
     margin-bottom: -3px;
 }
 @media screen and (max-width: 800px) {
